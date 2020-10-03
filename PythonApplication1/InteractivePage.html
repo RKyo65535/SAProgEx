@@ -6,10 +6,11 @@
     <title>文字を入力してほしいな！！</title>
 </head>
 <body>
-<form name="form1" action="/cgi-bin/formtest.py" method="POST">
-    文字を入力して下さい
-    <input type="text" name="param1" />
-    <button type="submit" name="submit">送信</button>
-</form>
+    <script type="text/javascript" src="CheckInputValue.js"></script>
+    <form name="form1" action="/cgi-bin/formtest.py" method="POST">
+        文字を入力して下さい
+        <input type="text" name="param1" />
+        <button type="submit" name="submit" onclick="return check();">送信</button>
+    </form>
 </body>
 </html>
