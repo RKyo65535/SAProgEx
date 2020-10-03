@@ -1,12 +1,11 @@
-function check() {
+ï»¿function check() {
     var param = document.form1.param1.value;
     if (param == '') {
-        alert("’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        alert("å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         return false;
     } else if (param.match(/[^0-9]+/)) {
-        alert("”š‚Ì‚İ‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        alert("æ•°å­—ã®ã¿ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         return false;
     }
     return true;
 }
-
