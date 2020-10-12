@@ -25,14 +25,22 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="cgi-bin\PythonApplication1.py" />
+    <Compile Include="DataBase\Select.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataBase\OperateDB.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="cgi-bin\" />
+    <Folder Include="DataBase\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataBase\BookList_sjis.csv" />
     <Content Include="InteractivePage.html" />
     <Content Include="CheckInputValue.js" />
   </ItemGroup>
