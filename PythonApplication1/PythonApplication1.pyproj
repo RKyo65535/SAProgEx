@@ -24,6 +24,9 @@
     <Compile Include="cgi-bin\formtest.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="cgi-bin\SearchBook.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="cgi-bin\PythonApplication1.py" />
     <Compile Include="DataBase\Select.py">
       <SubType>Code</SubType>
@@ -43,6 +46,7 @@
     <Content Include="DataBase\BookList_sjis.csv" />
     <Content Include="InteractivePage.html" />
     <Content Include="CheckInputValue.js" />
+    <Content Include="SearchBook.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

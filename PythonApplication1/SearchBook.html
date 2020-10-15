@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="CheckInputValue.js" charset="utf-8"></script>
+    <title>システムアーキテクトプログラミング演習の本を検索するサイトですよ</title>
+</head>
+<body>
+
+    <form name="form1" action="/cgi-bin/SearchBook.py" method="POST">
+        <p>検索する本、もしくは著作者のの名前を入力してください</p>
+        <input type="text" name="searchWord" />
+        <button type="submit" name="submit" onclick="return check();">検索！</button>
+    </form>
+</body>
+</html>
